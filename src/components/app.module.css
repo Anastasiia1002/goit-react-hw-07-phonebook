@@ -1,0 +1,81 @@
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: rgba(226, 43, 198, 0.508);
+  max-width: 400px;
+  max-height: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px gray;
+}
+.title {
+  background-color: rgba(255, 255, 255, 0.42);
+  width: 100%;
+  text-align: center;
+}
+.items {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+
+  border-radius: 10px;
+  background: rgba(244, 173, 244, 0.533);
+}
+.buttonDel {
+  border: none;
+  border-radius: 10px;
+  background: rgba(161, 41, 121, 0.607);
+  color: #fff;
+  cursor: pointer;
+  align-items: flex-end;
+  padding: 2px 7px;
+}
+
+.buttonDel:hover,
+.buttonDel:focus {
+  color: black;
+  box-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px gray;
+}
+.input {
+  border-radius: 10px;
+  border: none;
+  height: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 10px;
+}
+
+.buttonSub {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(161, 41, 121, 0.607);
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttonSub:hover,
+.buttonSub:focus {
+  box-shadow: 1px 1px 2px, 0 0 25px rgba(222, 37, 222, 0.441), 0 0 5px gray;
+}
